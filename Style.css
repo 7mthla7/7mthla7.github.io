@@ -1,0 +1,75 @@
+﻿body {
+    background: linear-gradient(to bottom,black,#100030);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+Video{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    background-attachment:fixed;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#box1 {
+    text-align: left;
+    display: inline-block;
+    color: white;
+    float: left;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+    text-transform:uppercase;
+}
+.navbar {
+    border: 1px solid;
+    width: 100%;
+    height: auto;
+    background-color: red;
+}
+#box2 {
+    float: right;
+    margin-left: auto;
+    padding: 0;
+    display: inline-block;
+    text-align: right;
+    color: white;
+    word-spacing: 0 20px;
+}
+p{
+   text-align:center;
+   color:white;
+   margin-top:5%;
+   font-size:50px;
+}
+a:link {
+    color: white;
+}
+a:hover {
+    color: teal;
+}
+a:active {
+    color: white;
+}
+button {
+    padding:2px;
+    color: black;
+    width: 150px;
+    height: 40px;
+    background-color:white;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
+button:active{
+    background-color:#176e76;
+    color:white;
+}
